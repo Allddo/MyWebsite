@@ -1,0 +1,65 @@
+img{
+    max-width: 5%;
+    max-height: 5%;
+}
+
+a{
+    color: white;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.image{
+    max-width: 85%;
+    max-height: 85%;
+    padding: 30px;
+}
+
+.bottomHeader{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
+    background-color: #1F2937;
+}
+
+.navLogo{
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.navLinks{
+    display: flex;
+    gap: 40px;
+    padding-right: 150px;
+    float: right;
+    font-size: 25px;
+}
+
+.leftBottomHeader{
+    flex: 1;
+    height: auto;
+    font-size: 48px;
+    font-weight: bolder;
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
+    
+}
+
+.lbhParagraph{
+    font-size: 18px;
+}
+
+.rightBottomHeader{
+    flex: 1;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
+}
